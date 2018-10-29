@@ -31,7 +31,7 @@ Scenario: restrict to movies with 'PG' or 'R' ratings
   And I should see "When Harry Met Sally"
   And I should see "Amelie"
   And I should see "The Incredibles"
-  But I should see "Raiders of the Lost Ark"
+  But I should not see "Raiders of the Lost Ark"
   And I should not see "Aladdin"
   And I should not see "The Help"
   And I should not see "Chocolat"
